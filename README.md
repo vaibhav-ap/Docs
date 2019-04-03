@@ -123,9 +123,9 @@ To setup cryptoz on your local machine, follow the steps in sequential order.
 1. Clone following packages from github
 
    ```shell
-   $> git clone https://ap-qio:admin#2017@github.com/ap-qio/cryptoz-collection.git
-   $> git clone https://ap-qio:admin#2017@github.com/ap-qio/casandradatalayer.git
-   $> git clone https://ap-qio:admin#2017@github.com/ap-qio/cryptoz-defaultproperties.git
+   $> git clone https://github.com/ap-qio/cryptoz-collection.git
+   $> git clone https://github.com/ap-qio/casandradatalayer.git
+   $> git clone https://github.com/ap-qio/cryptoz-defaultproperties.git
    ```
 
 2. In **cassandradatalayer **, locate cassandra.properties file and open it.
