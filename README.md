@@ -13,9 +13,9 @@ To setup cryptoz on your local machine, follow the steps in sequential order.
 
 1. Download Cassandra binary zip file from following link : [Download Link](http://www.google.com)
 
-   > **Note ** : For Cassandra minimum version required is 3.10.x+
+   > **Note** : For Cassandra minimum version required is 3.10.x+
 
-2. After the download completes, unzip the contents using:
+2. After the download completes, unzip the contents:
 
    ```shell
    $> tar -xvf apache-cassandra-3.11.x.bin.tar.gz
@@ -138,7 +138,7 @@ To setup cryptoz on your local machine, follow the steps in sequential order.
 
    ```properties
    cassandra.cluster.name=ecurrencyindex   # cluster name specified in Prerequisites step 8
-   cassandra.cluster.username=username     # username of new user
+   cassandra.cluster.username=username     # username of new user in setting up step 4
    cassandra.cluster.password=password     # password corresponding to that user.
    cassandra.keyspace.name=keyspace_name   # specify the keyspace_name to be used.
    ```
@@ -167,7 +167,7 @@ To setup cryptoz on your local machine, follow the steps in sequential order.
 
 #### Execution Step
 
-1. To remove already compiled binaries, and to install required binaries, use maven for each package:
+1. To remove already compiled binaries, use maven `clean` for each package:
 
    ```shell
    $> mvn clean
