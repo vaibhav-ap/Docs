@@ -167,10 +167,10 @@ To setup cryptoz on your local machine, follow the steps in sequential order.
 
 #### Execution Step
 
-1. To remove already compiled binaries, use maven `clean` for each package:
+1. To remove already compiled binaries, and to install dependent binaries, use maven `clean` & `install` all dependent modules:
 
    ```shell
-   $> mvn clean
+   $> mvn clean install 
    ```
 
 2. Execution of code begins from main.java. Command-line arguments and VMarguments are to be passed as arguments.
